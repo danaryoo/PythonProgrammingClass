@@ -1,0 +1,2 @@
+The three numbers are: 1, 2, 3. The total is 6. The average is 2.0
+The three numbers are: 5, 10, 58. The total is 73. The average is 24.333333333333332
