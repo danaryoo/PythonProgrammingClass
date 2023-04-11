@@ -1,0 +1,6 @@
+Last month rent: $1234
+Last month gas: $12
+Last month food: $34
+Last month clothing: $12
+Last month car payment: $34
+Last month total: $1326
