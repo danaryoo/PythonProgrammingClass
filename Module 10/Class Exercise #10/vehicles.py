@@ -26,9 +26,10 @@ class Automobiles:
         return self.__price
 
 class Car_demo(Automobiles):
-    def __init__(self,make,model,mileage,price,door):
+    def __init__(self,make,model,mileage,price,door,electronic):
         super().__init__(make,model,mileage,price)
         self._door = door
+        self._electronic = electronic
     
     def print_description(self):
         print('Make: ' + self.get_make())
@@ -36,8 +37,14 @@ class Car_demo(Automobiles):
         print('Mileage: '+ str(self.get_mileage()))
         print('Price: '+ str(self.get_price()))
         print('Number of Doors:'+ str(self.get_door()))
+        print('Electronic vehicle?: '+ self.get_electronic())
     
     def set_door(self,door):
         self._door = door
+    def set_electronic(self,electronic):
+        self._electronic = electronic
     def get_door(self):
         return self._door
+    def get_electronic(self):
+        return self._electronic
+    
